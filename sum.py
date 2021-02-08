@@ -1,5 +1,7 @@
 a=3
 b=2
 c=5
-x= a+b+c
+d=6
+x= a+b+c+d
 print(x)
+
