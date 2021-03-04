@@ -1,8 +1,6 @@
 # Python program for variables and type of variables
 
-x= 1
-y=3.1
-z='Nilay'
+x,y,z=1,3.1,'Nilay'
 print(type(x))
 print(type(y))
 print(type(z))
