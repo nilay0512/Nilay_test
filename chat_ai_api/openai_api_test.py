@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 messages = [ {"role": "system", "content": "You are a intelligent assistant."} ]
 while True: 
@@ -12,7 +12,7 @@ while True:
 		chat = openai.ChatCompletion.create( 
 			model="gpt-3.5-turbo", messages=messages 
 		) 
-	
 	reply = chat.choices[0].message.content 
 	print(f"ChatGPT: {reply}") 
 	messages.append({"role": "assistant", "content": reply})
+
